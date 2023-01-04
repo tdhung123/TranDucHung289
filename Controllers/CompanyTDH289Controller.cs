@@ -12,6 +12,8 @@ namespace TranDucHung289.Controllers
     public class CompanyTDH289Controller : Controller
     {
         private readonly MvcMovieContext _context;
+        private StringProcessTDH289 strPro = new StringProcessTDH289();
+
 
         public CompanyTDH289Controller(MvcMovieContext context)
         {
