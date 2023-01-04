@@ -16565,6 +16565,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\TDH0289\\Details.cshtml",
+      "TargetPath": "Views\\TDH0289\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\CompanyTDH289\\Details.cshtml",
       "TargetPath": "Views\\CompanyTDH289\\Details.cshtml",
       "FileKind": "mvc"
@@ -16580,6 +16585,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\TDH0289\\Index.cshtml",
+      "TargetPath": "Views\\TDH0289\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\TDH0289\\Edit.cshtml",
+      "TargetPath": "Views\\TDH0289\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -16587,6 +16602,16 @@
     {
       "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\CompanyTDH289\\Create.cshtml",
       "TargetPath": "Views\\CompanyTDH289\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\TDH0289\\Create.cshtml",
+      "TargetPath": "Views\\TDH0289\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\Baithi\\TranDucHung289\\Views\\TDH0289\\Delete.cshtml",
+      "TargetPath": "Views\\TDH0289\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

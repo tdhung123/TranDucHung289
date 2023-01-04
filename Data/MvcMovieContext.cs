@@ -13,4 +13,8 @@ using TranDucHung289.Models;
         }
 
         public DbSet<TranDucHung289.Models.CompanyTDH289> CompanyTDH289 { get; set; } = default!;
+
+        public DbSet<TranDucHung289.Models.TDH0289> TDH0289 { get; set; } = default!;
+
+      
     }

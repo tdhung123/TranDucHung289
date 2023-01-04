@@ -1,0 +1,41 @@
+@model IEnumerable<TranDucHung289.Models.TDH0289>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TDHName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TDHGender)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TDHName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TDHGender)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TDHid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TDHid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TDHid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,30 @@
+@model TranDucHung289.Models.TDH0289
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>TDH0289</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TDHName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TDHName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TDHGender)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TDHGender)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TDHid">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
