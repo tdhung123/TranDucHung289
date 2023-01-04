@@ -23,9 +23,9 @@ namespace TranDucHung289.Controllers
         // GET: CompanyTDH289
         public async Task<IActionResult> Index()
         {
-              return _context.CompanyTDH289 != null ? 
-                          View(await _context.CompanyTDH289.ToListAsync()) :
-                          Problem("Entity set 'MvcMovieContext.CompanyTDH289'  is null.");
+            return _context.CompanyTDH289 != null ?
+                        View(await _context.CompanyTDH289.ToListAsync()) :
+                        Problem("Entity set 'MvcMovieContext.CompanyTDH289'  is null.");
         }
 
         // GET: CompanyTDH289/Details/5
@@ -61,6 +61,8 @@ namespace TranDucHung289.Controllers
         {
             if (ModelState.IsValid)
             {
+                companyTDH289.CompanyName = strPro.LowerToUpper(companyTDH289.CompanyName);
+
                 _context.Add(companyTDH289);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -151,14 +153,14 @@ namespace TranDucHung289.Controllers
             {
                 _context.CompanyTDH289.Remove(companyTDH289);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CompanyTDH289Exists(string id)
         {
-          return (_context.CompanyTDH289?.Any(e => e.CompanyId == id)).GetValueOrDefault();
+            return (_context.CompanyTDH289?.Any(e => e.CompanyId == id)).GetValueOrDefault();
         }
     }
 }
